@@ -25,3 +25,11 @@
     background-color: white;
     color: green;
 }
+.my-button--lg{
+    height: 50px;
+    min-width: 200px;
+}
+.my-button--sm{
+    height: 30px;
+    min-width: 120px;
+}
