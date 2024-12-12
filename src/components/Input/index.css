@@ -4,18 +4,25 @@
     width: 250px;
     border-radius: 8px;
     border: 1px solid gray;
-    transition: 0.5s ease;
+    transition: color 0.5s ease;
+}
+.label{
+    transition: color 0.5s ease;
 }
 
-.input--nodanger.input--focused {
+.input--safe.input--focused {
     border: 2px solid #006FEE;
-    height: 40px;
-    width: 260px;
 }
-.label--nodanger.label--focused {
+.label--safe.label--focused {
     color: #006FEE;
 }
-
+.input--danger.input--focused{
+    border: 2px solid red;
+    color: red;
+}
+.label--danger.label--focused {
+    color: red
+}
 .inputdiv {
     display: flex;
     flex-direction: column;

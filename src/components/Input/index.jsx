@@ -14,10 +14,7 @@ function Input(props) {
                 {label}
             </label>
             <input
-                id="name"
-                className={classNameInput}
-                placeholder="Enter your name"
-                onFocus={() => setIsFocused(true)}
+                id="name" className={classNameInput} placeholder="Enter your name" onFocus={() => setIsFocused(true)}
             />
         </div>
     );
