@@ -2,28 +2,32 @@
     background-color: green;
     height: 40px;
     min-width: 150px;
-    border-radius: 8px;
+    border-radius: 12px;
     border: none;
     color: white;
     cursor: pointer;
+    margin: 10px;
 
     font-size: 20px;
     transition: background-color 0.2s ease-in-out;
 }
-.my-button:hover{
-    background-color: rgb(71, 182, 71);
-}
-
 .my-button--primary{
-    background-color: green;
+    background-color: #006FEE;
     border: none;
     color: white;
 }
+.my-button--primary:hover{
+    background-color: #024694;
+}
 
 .my-button--bordered{
-    border: 1px solid green;
+    border: 1px solid #006FEE;
     background-color: white;
-    color: green;
+    color: #006FEE;
+}
+.my-button--bordered:hover{
+    color: white;
+    background-color: #006FEE;
 }
 .my-button--lg{
     height: 50px;

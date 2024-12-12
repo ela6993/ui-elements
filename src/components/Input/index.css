@@ -1,0 +1,23 @@
+.input {
+    margin-top: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    transition: 0.5s ease;
+}
+
+.input--nodanger.input--focused {
+    border: 2px solid #006FEE;
+    height: 40px;
+    width: 260px;
+}
+.label--nodanger.label--focused {
+    color: #006FEE;
+}
+
+.inputdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
